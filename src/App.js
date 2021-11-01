@@ -1,11 +1,13 @@
-import React from "react";
-import "./style.css";
+import logo from './logo.svg';
+import './App.css';
+import Heros from './Exercise1/Heros';
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <Heros/>
     </div>
   );
 }
+
+export default App;
